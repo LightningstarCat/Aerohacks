@@ -1,5 +1,5 @@
-def dailyhabit():
-    print("Ｄａｉｌｙ Ｈａｂｉｔ Ｔｒａｃｋｅｒ")
+def dailyactivity():
+    print("Ｄａｉｌｙ Ａｃｔｉｖｉｔｙ Ｍａｎａｇｅｒ")
     print("What's your name?")
     name = input()
     print("Hey, I'm Daychat. I'm kind of like an activity log, but I talk! I help you get rid of stress and stimulate your mind. Let's get started. What time did you wake up today?")
@@ -26,8 +26,80 @@ def dailyhabit():
     input()
     print("Ahh. I SOOO want to be there right now! Anyways, that's the end. Have a good night/day!")
 
+def dailyhabit():
+    print("Hello! How are you doing?")
+    feelpast = input()
+    #make habit
+    print("I hope you are feeling well! I'm your new habit tracker! I help you make a checklist what you want to do to do a habit daily and stop a bad habit! \n First, let's make a habit! What activity would you like to make a habit? Only one please.")
+    habit = input()
+    print("Ok! How frequently do you want to do " , habit , "? Put the number of times a day you want to do it.")
+    time = input()
+    print("Do you think you are doing well on your " , habit , "? Bad, good, great, or awesome?")
+    well = input()
+    print("Why do you feel that you are doing " , well , " on " , habit , "?")
+    whywell = input()
+    print("What do you think you need to do to complete " , habit , "?")
+    plan = input()
+    #bad habit
+    print("Next, let's make a plan to stop a bad habit! \n What bad habit would you like to stop?")
+    badhabit = input()
+    print("Why do you want to stop " , badhabit , "?")
+    badreason = input()
+    print("What do you think would stop " , badhabit , "?")
+    badplan = input()
+    print("Ok! Thank you for filling this out! Now I will tell you your plan!")
+    print("A new habit you want to make is " , habit , " and to complete that you will" , plan , "" , time , " times a day. For your bad habit, you want to stop " , badhabit , " because " , badreason , ". You will stop this by " , badplan , ".")
 
-
+def weeklymeal():
+    print("░W░e░e░k░l░y░ ░M░e░a░l░ ░P░l░a░n░n░e░r░")
+    veggies = ["carrot","potato","lettuce","onion","avocodo","spinach","squash","pumpkin","mushroom","broccoli","celery","corn","garlic","pepper","tomato","zucchini"]
+    wholegrain = ["barley","black rice","brown rice","red rice","wild rice","oatmeal","whole-wheat flour","whole-wheat bread","whole-wheat pasta","millet","quinoa"]
+    fruit = ["strawberry","blueberry","pineapple","orange","lemon","cranberry","grape","mango","banana","apple","watermelon","kiwi","dragonfruit"]
+    protein = ["egg","bean","pea","lentil","nut","seed","soy products","greek yogart","cottage cheese"]
+    healthyfat = ["chia","flax","hemp","olive","canola","sunflower","oat","buckwheat","soy"]
+    print("Hello! I am a meal planner that helps arrange balanced and delicious meals. Let's get started!")
+    veggiemonday = random.choice(veggies)
+    wgrainmonday = random.choice(wholegrain)
+    fruitmonday = random.choice(fruit)
+    proteinmonday = random.choice(protein)
+    healthyfatmonday = random.choice(healthyfat)
+    veggietuesday = random.choice(veggies)
+    wgraintuesday = random.choice(wholegrain)
+    fruittuesday = random.choice(fruit)
+    proteintuesday = random.choice(protein)
+    healthyfattuesday = random.choice(healthyfat)
+    veggieweds = random.choice(veggies)
+    wgrainweds = random.choice(wholegrain)
+    fruitweds = random.choice(fruit)
+    proteinweds = random.choice(protein)
+    healthyfatweds = random.choice(healthyfat)
+    veggiethurs = random.choice(veggies)
+    wgrainthurs = random.choice(wholegrain)
+    fruitthurs = random.choice(fruit)
+    proteinthurs = random.choice(protein)
+    healthyfatthurs = random.choice(healthyfat)
+    veggiefri = random.choice(veggies)
+    wgrainfri = random.choice(wholegrain)
+    fruitfri = random.choice(fruit)
+    proteinfri = random.choice(protein)
+    healthyfatfri = random.choice(healthyfat)
+    veggiesat = random.choice(veggies)
+    wgrainsat = random.choice(wholegrain)
+    fruitsat = random.choice(fruit)
+    proteinsat = random.choice(protein)
+    healthyfatsat = random.choice(healthyfat)
+    veggiesun = random.choice(veggies)
+    wgrainsun = random.choice(wholegrain)
+    fruitsun = random.choice(fruit)
+    proteinsun = random.choice(protein)
+    healthyfatsun = random.choice(healthyfat)
+    print("On Monday, you should have " + veggiemonday +", "+ wgrainmonday +", "+ fruitmonday +", "+ proteinmonday +", "+ healthyfatmonday + ".")
+    print("On Tuesday, you should have " + veggietuesday +", "+ wgraintuesday +", "+ fruittuesday +", "+ proteintuesday +", "+ healthyfattuesday + ".")
+    print("On Wednesday, you should have " + veggieweds +", "+ wgrainweds +", "+ fruitweds +", "+ proteinweds +", "+ healthyfatweds + ".")
+    print("On Thursday, you should have " + veggiethurs +", "+ wgrainthurs +", "+ fruitthurs +", "+ proteinthurs +", "+ healthyfatthurs + ".")
+    print("On Friday, you should have " + veggiefri +", "+ wgrainfri +", "+ fruitfri +", "+ proteinfri +", "+ healthyfatfri + ".")
+    print("On Saturday, you should have " + veggiesat +", "+ wgrainsat +", "+ fruitsat +", "+ proteinsat +", "+ healthyfatsat + ".")
+    print("On Sunday you should have " + veggiesun +", "+ wgrainsun +", "+ fruitsun +", "+ proteinsun +", "+ healthyfatsun + ".")
 
 def stressmanager():
     print("🆂🆃🆁🅴🆂🆂 🅼🅰🅽🅰🅶🅴🆁")
