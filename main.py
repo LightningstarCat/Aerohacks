@@ -25,6 +25,12 @@ def relax():
     elif whatyoudo == 4:
         print("DEEP BREATHING")
         print("Take a deep breath in and hold for as long as you can. Then, exhale and let it all out. Try to exhale for as long as you can. Then, repeat.")
+    elif whatyoudo == 5:
+        print("EXERCISE")
+        print("1) Stand up stretch your legs and arms.")
+        print("2) Now, stretch your core, hands, and feet.")
+        print("3) Then, take a walk or jog. It doesn't have to be long, just enough to feel refreshed.")
+        print("4) Enjoy the activity of moving and getting out before returning to what you were doing.")
 
 
 def dailyactivity():
