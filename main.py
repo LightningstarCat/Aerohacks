@@ -27,6 +27,7 @@ def dailyactivity():
     print("Ahh. I SOOO want to be there right now! Anyways, that's the end. Have a good night/day!")
 
 def dailyhabit():
+    print("ᕼᗩᗷIT TᖇᗩᑕKEᖇ")
     print("Hello! How are you doing?")
     feelpast = input()
     #make habit
