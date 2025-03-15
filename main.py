@@ -158,6 +158,11 @@ def mainmenu():
         weeklymeal()
     elif whatyouwanttodo == "5":
         relax()
+    else:
+        print("That's not a valid input...but do you know what is?????")
+        print("LOFI!!!!")
+        print("Copy and paste into a new tab for the lofi playlist: \n https://open.spotify.com/playlist/5blAlCXRxFevowEHChd2gb")
+        print("Copy and paste into a new tab for the positive music: \n https://open.spotify.com/playlist/6CXcW9CVtlhqkCpTfPhy0D")
 
 print("𝔸𝕖𝕣𝕠𝕙𝕒𝕔𝕜𝕤 𝕊𝕖𝕝𝕗-ℍ𝕖𝕝𝕡 ℍ𝕦𝕓")
 print("Welcome to Aerohacks Self-Help Hub! We've got many things to help you improve your daily life and overall experence day-to-day.")
