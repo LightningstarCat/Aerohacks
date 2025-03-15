@@ -1,3 +1,32 @@
+import random
+
+def relax():
+    print("R/E/L/A/X/A/T/I/O/N T/A/C/T/I/C/T/S")
+    whatyoudo = random.randint(1,5)
+    if whatyoudo == 1:
+        print("SQUARE BREATHING")
+        print("1) Sit comfortably in a chair with your back supported.")
+        print("2) Place your feet on the floor.")
+        print("3) Inhale for a count of four.")
+        print("4) Hold your breath for a count of four.")
+        print("5) Exhale for a count of four.")
+        print("6) Hold your breath out for a count of four. Repeat the cycle.")
+    elif whatyoudo == 2:
+        print("MUSIC")
+        print("Enjoy some calming lofi. Copy and paste this link to listen to some lofi: https://open.spotify.com/playlist/5blAlCXRxFevowEHChd2gb?si=ui4bCYENSgOoN5zsYuGamg")
+    elif whatyoudo == 3:
+        print("RELAXING IMAGES")
+        print("Follow these steps in your mind.")
+        print("1) Think of a balloon of any color, and pretend to hold it in your hand.")
+        print("2) Hold a piece of paper in your other hand. Write something that is stressful for you on the paper.")
+        print("3) Attach the paper to the balloon.")
+        print("4) Let the balloon go, slowly drifing through the sky. Watch your worries literally fly away.")
+        print("5) Take a moment to savor the moment before returning to reality.")
+    elif whatyoudo == 4:
+        print("DEEP BREATHING")
+        print("Take a deep breath in and hold for as long as you can. Then, exhale and let it all out. Try to exhale for as long as you can. Then, repeat.")
+
+
 def dailyactivity():
     print("Ｄａｉｌｙ Ａｃｔｉｖｉｔｙ Ｍａｎａｇｅｒ")
     print("What's your name?")
